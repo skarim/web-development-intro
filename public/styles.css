@@ -1,0 +1,61 @@
+/* Home Page Styles */
+.hero {
+  background: #30E8BF;
+  background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+  background: linear-gradient(to right, #FF8235, #30E8BF);
+}
+
+.masthead.segment {
+  height: 100vh;
+  min-height: 600px;
+  padding: 1em 0em;
+}
+
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 700px) {
+  .masthead.segment {
+    min-height: 250px;
+    height: auto;
+  }
+
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
