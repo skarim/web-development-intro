@@ -2,6 +2,8 @@
   "name": "web-development-intro",
   "version": "1.0.0",
   "scripts": {
+    "watch_styles": "cd semantic && gulp watch",
+    "build_styles": "cd semantic && gulp build"
   },
   "repository": {
     "type": "git",
@@ -10,5 +12,7 @@
   "homepage": "https://github.com/skarim/web-development-intro",
   "devDependencies": {},
   "dependencies": {
+    "gulp": "^3.9.1",
+    "semantic-ui": "^2.4.2"
   }
 }
