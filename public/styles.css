@@ -1,10 +1,4 @@
 /* Home Page Styles */
-.hero {
-  background: #30E8BF;
-  background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
-  background: linear-gradient(to right, #FF8235, #30E8BF);
-}
-
 .masthead.segment {
   height: 100vh;
   min-height: 600px;
