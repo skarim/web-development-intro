@@ -1,0 +1,14 @@
+{
+  "name": "web-development-intro",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skarim/web-development-intro.git"
+  },
+  "homepage": "https://github.com/skarim/web-development-intro",
+  "devDependencies": {},
+  "dependencies": {
+  }
+}
