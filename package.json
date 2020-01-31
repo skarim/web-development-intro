@@ -2,6 +2,7 @@
   "name": "web-development-intro",
   "version": "1.0.0",
   "scripts": {
+    "start": "npm run build_styles && cp -r semantic/dist/ public/semantic/ && light-server -s public -p 2000 -o -w 'public/** # echo html files changed!'",
     "watch_styles": "cd semantic && gulp watch",
     "build_styles": "cd semantic && gulp build"
   },
@@ -13,6 +14,7 @@
   "devDependencies": {},
   "dependencies": {
     "gulp": "^3.9.1",
+    "light-server": "^2.6.4",
     "semantic-ui": "^2.4.2"
   }
 }
