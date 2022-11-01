@@ -13,8 +13,8 @@
   "homepage": "https://github.com/skarim/web-development-intro",
   "devDependencies": {},
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "light-server": "^2.6.4",
-    "semantic-ui": "^2.4.2"
+    "semantic-ui": "^2.5.0"
   }
 }
